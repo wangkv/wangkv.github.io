@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://wangkv.github.io</id>
+    <title>Gridea</title>
+    <updated>2020-05-13T02:38:58.809Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://wangkv.github.io"/>
+    <link rel="self" href="https://wangkv.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://wangkv.github.io/images/avatar.png</logo>
+    <icon>https://wangkv.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[abaqus热力耦合]]></title>
+        <id>https://wangkv.github.io/post/abaqus-re-li-ou-he/</id>
+        <link href="https://wangkv.github.io/post/abaqus-re-li-ou-he/">
+        </link>
+        <updated>2020-05-13T02:37:28.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="abaqus热力耦合-固体传热">abaqus热力耦合 固体传热</h1>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="abaqus热力耦合-固体传热">abaqus热力耦合 固体传热</h1>
+<!-- more -->
+<h1 id="固体传热">固体传热</h1>
+<ol>
+<li>建立模型 圆管</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="http://ww1.sinaimg.cn/large/006iJmjsly1geppgugxrcj30s70f1gt3.jpg" alt="圆管部件.png" loading="lazy"></figure>
+<ol start="2">
+<li>设置材料属性</li>
+</ol>
+<figure data-type="image" tabindex="2"><img src="http://ww1.sinaimg.cn/mw690/006iJmjsly1gepq29gs4tg30y20hsb2r.gif" alt="设置材料属性" loading="lazy"></figure>
+<ol start="3">
+<li>
+<p>设置分析步</p>
+<figure data-type="image" tabindex="3"><img src="http://ww1.sinaimg.cn/large/006iJmjsly1gepqn3uk14g30y20hshdw.gif" alt="定义分析步" loading="lazy"></figure>
+</li>
+<li>
+<p>定义场变量</p>
+<figure data-type="image" tabindex="4"><img src="http://ww1.sinaimg.cn/large/006iJmjsly1gepqn3cq3rj30cg0fbjur.jpg" alt="定义场变量" loading="lazy"></figure>
+</li>
+<li>
+<p>定义边界载荷</p>
+</li>
+</ol>
+<figure data-type="image" tabindex="5"><img src="http://ww1.sinaimg.cn/large/006iJmjsly1gepqn3d4e7j30t80fc7d5.jpg" alt="定义边界载荷" loading="lazy"></figure>
+<ul>
+<li>
+<p>边界载荷，一边定义为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>10</mn><msup><mn>0</mn><mo>∘</mo></msup><mi>C</mi></mrow><annotation encoding="application/x-tex">100^{\circ}C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.674115em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">∘</span></span></span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span></span>，另外一边定义为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>0</mn><mo>∘</mo></msup><mi>C</mi></mrow><annotation encoding="application/x-tex">0^{\circ}C</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.674115em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">∘</span></span></span></span></span></span></span></span></span><span class="mord mathdefault" style="margin-right:0.07153em;">C</span></span></span></span>，同时给整个模型添加预定义场。</p>
+<figure data-type="image" tabindex="6"><img src="http://ww1.sinaimg.cn/large/006iJmjsly1gepqui250qj30r10g7455.jpg" alt="预定义场.png" loading="lazy"></figure>
+</li>
+</ul>
+<ol start="6">
+<li>
+<p>划分网格</p>
+<p>网格类型选择为热传递，网格控制属性为扫琼</p>
+<figure data-type="image" tabindex="7"><img src="http://ww1.sinaimg.cn/large/006iJmjsly1gepr1j16xqj30od0ds179.jpg" alt="划分网格" loading="lazy"></figure>
+</li>
+<li>
+<p>查看结果</p>
+<figure data-type="image" tabindex="8"><img src="http://ww1.sinaimg.cn/large/006iJmjsly1gepr1j03uyj30sm0hh7eq.jpg" alt="查看结果" loading="lazy"></figure>
+</li>
+</ol>
+]]></content>
+    </entry>
+</feed>
